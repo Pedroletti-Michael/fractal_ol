@@ -7,5 +7,14 @@
 # include <limits.h>
 # include <stdio.h>
 
+/**
+ * Type used to define complexe number
+**/
+typedef struct	s_cnb
+{
+	double	real;
+	double	img;
+}			t_cnb;
+
 int	ft_putstr(char *s);
 #endif
